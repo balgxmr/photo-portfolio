@@ -121,3 +121,46 @@ body.dark-mode .contact-link {
   margin-bottom: 3rem;
   width: 400px;
 }
+
+/* RRRRRRRRRRRRRRRRRRRRESPONSIVE */
+@media (max-width: 768px) {
+  body {
+    padding: 2rem;
+  }
+
+  .photos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photos-box {
+    padding: 0.5rem;
+  }
+
+  .photos-box--img {
+    width: 90vw;
+    height: auto;
+    max-width: 500px;
+  }
+
+  .title {
+    font-size: x-large;
+    text-align: center;
+  }
+
+  .desc {
+    font-size: large;
+    text-align: center;
+  }
+
+  .title {
+    margin-top: 4rem;
+  }
+  .contact-link {
+    padding-top: 0.3rem;
+  }
+
+  .divisor {
+    width: 200px;
+  }
+}
