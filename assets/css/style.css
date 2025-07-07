@@ -6,9 +6,14 @@ body {
   padding: 5rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 .title,
 .desc,
-.photos {
+.photos,
+.back-text {
   display: flex;
   justify-content: center;
 }
@@ -67,4 +72,28 @@ body.dark-mode {
 
 body.dark-mode .photos-box--img {
   filter: brightness(0.9);
+}
+
+/* PHOTO PAGE DEDICATED */
+#photo-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+#photo {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+}
+#description {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.back-text {
+  font-size: 2rem;
+  padding-top: 2rem;
+  color: inherit;
+  transition: 0.3s;
+}
+.back-text:hover {
+  font-size: 2.2rem;
 }
