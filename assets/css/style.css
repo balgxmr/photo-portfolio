@@ -1,0 +1,70 @@
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  padding: 5rem;
+}
+
+.title,
+.desc,
+.photos {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: xx-large;
+}
+
+.desc {
+  font-size: x-large;
+}
+
+.photos {
+}
+.photos-box {
+  padding: 1rem;
+}
+.photos-box--img {
+  height: 300px;
+  width: auto;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.photos-box--img:hover {
+  scale: 1.03;
+}
+
+/* Material Icon Button */
+#theme-toggle {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #333;
+}
+
+body.dark-mode #theme-toggle {
+  color: #eee;
+}
+
+/* Light Theme (default) */
+body {
+  background-color: #fff;
+  color: #111;
+}
+
+/* Dark Theme */
+body.dark-mode {
+  background-color: #111;
+  color: #eee;
+}
+
+body.dark-mode .photos-box--img {
+  filter: brightness(0.9);
+}
