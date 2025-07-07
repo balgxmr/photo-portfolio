@@ -18,5 +18,5 @@ Some of my photographies in there!
 
 ---
 
-I started this journey in 2024. My parents gave me the T7 + body kit lens
+I started this journey in 2024. My parents gave me the T7 + 18-55mm kit lens
 as a bday gift. I owe them a lot, I've been learning a lot!

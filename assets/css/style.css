@@ -26,8 +26,6 @@ a {
   font-size: x-large;
 }
 
-.photos {
-}
 .photos-box {
   padding: 1rem;
 }
@@ -96,4 +94,30 @@ body.dark-mode .photos-box--img {
 }
 .back-text:hover {
   font-size: 2.2rem;
+}
+
+/* contact me */
+.contact-link {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1rem;
+  color: inherit;
+  transition: 0.3s;
+}
+.contact-link:hover {
+  opacity: 0.7;
+  scale: 1.01;
+}
+body.dark-mode .contact-link {
+  color: #eee;
+}
+
+.divisor {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 400px;
 }
